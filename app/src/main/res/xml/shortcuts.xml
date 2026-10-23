@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="torch_on"
+        android:enabled="true"
+        android:icon="@drawable/ic_app"
+        android:shortcutShortLabel="@string/shortcut_torch_short"
+        android:shortcutLongLabel="@string/shortcut_torch_long">
+        <intent
+            android:action="jp.mushamusha.utilitylight.action.TORCH_ON"
+            android:targetPackage="jp.mushamusha.utilitylight"
+            android:targetClass="jp.mushamusha.utilitylight.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="scan_qr"
+        android:enabled="true"
+        android:icon="@drawable/ic_app"
+        android:shortcutShortLabel="@string/shortcut_qr_short"
+        android:shortcutLongLabel="@string/shortcut_qr_long">
+        <intent
+            android:action="jp.mushamusha.utilitylight.action.SCAN_QR"
+            android:targetPackage="jp.mushamusha.utilitylight"
+            android:targetClass="jp.mushamusha.utilitylight.MainActivity" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">便利ツール</string>
+    <string name="shortcut_torch_short">ライトON</string>
+    <string name="shortcut_torch_long">ライトを直接点灯</string>
+    <string name="shortcut_qr_short">QR読取</string>
+    <string name="shortcut_qr_long">QR・バーコードを読み取る</string>
+</resources>
