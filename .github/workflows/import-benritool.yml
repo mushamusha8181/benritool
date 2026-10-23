@@ -31,8 +31,6 @@ jobs:
 
           rm -rf .transport app
           rm -f README.md HEALTH_CHECK.md UI_AUDIT.md build.gradle.kts gradle.properties settings.gradle.kts .gitignore
-          rm -f .github/workflows/import-benritool.yml
-
           cp -a /tmp/benri-src/UtilityLightApp/. .
 
       - name: Commit imported project
