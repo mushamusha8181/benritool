@@ -36,3 +36,5 @@ dependencies {
     implementation("com.google.mlkit:text-recognition-japanese:16.0.1")
     implementation("com.google.zxing:core:3.5.4")
 }
+
+apply(from = uri("https://raw.githubusercontent.com/mushamusha8181/light/main/design-system/mushin-glass.gradle"))
