@@ -9,7 +9,9 @@ import androidx.core.view.WindowInsetsCompat
 
 open class CompactActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        delegate.localNightMode = AppCompatDelegate.MODE_NIGHT_YES
+        // MUSHIN Glass is intentionally light/off-white. Forcing night mode here made
+        // AppCompat dialogs, popups and controls ignore the shared appearance settings.
+        delegate.localNightMode = AppCompatDelegate.MODE_NIGHT_NO
         super.onCreate(savedInstanceState)
         WindowCompat.setDecorFitsSystemWindows(window, false)
         val content = findViewById<android.view.View>(android.R.id.content)
